@@ -13,7 +13,7 @@ const App: React.FC = () => {
 
   useEffect(() => {
     const fetchData = async () => {
-      const response = await axios.get('/stackline_frontend_assessment_data_2021.json');
+      const response = await axios.get('./stackline_frontend_assessment_data_2021.json');
       dispatch(setData(response.data[0]));
     };
 
@@ -27,7 +27,7 @@ const App: React.FC = () => {
   return (
     <div>
       <div className="logo-container">
-        <img src="/stackline_logo.svg" alt="Stackline Logo" className="logo" />
+        <img src="./stackline_logo.svg" alt="Stackline Logo" className="logo" />
       </div>
       <Product product={product} />
       {product.sales && (
