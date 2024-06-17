@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/stackline-frontend/static/css/main.d3cac977.css",
-    "main.js": "/stackline-frontend/static/js/main.592fc57c.js",
+    "main.js": "/stackline-frontend/static/js/main.14c0aba8.js",
     "index.html": "/stackline-frontend/index.html",
     "main.d3cac977.css.map": "/stackline-frontend/static/css/main.d3cac977.css.map",
-    "main.592fc57c.js.map": "/stackline-frontend/static/js/main.592fc57c.js.map"
+    "main.14c0aba8.js.map": "/stackline-frontend/static/js/main.14c0aba8.js.map"
   },
   "entrypoints": [
     "static/css/main.d3cac977.css",
-    "static/js/main.592fc57c.js"
+    "static/js/main.14c0aba8.js"
   ]
 }
